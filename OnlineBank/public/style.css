@@ -1,0 +1,200 @@
+/* index-------------------------------------- */
+#list {
+  width: fit-content;
+  margin: auto;
+  margin-top: 420px;
+}
+
+#list ul {
+  padding: 0;
+  list-style-type: none;
+  width: 200px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+#list li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#list li a:hover {
+  background-color: #555;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.39);
+}
+/* create/delete_konto------------------------ */
+#create_delete_container {
+  height: 225px;
+  width: 600px;
+  margin: auto;
+  margin-top: 360px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+
+#create_delete_container h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#create_delete_container #formular {
+  padding-left: 25px;
+}
+
+#create_delete_container #formular #cancel_btn{
+  color: black;
+  text-decoration: none;
+}
+/* login_konto-------------------------------- */
+#login_container {
+  height: 225px;
+  width: 600px;
+  margin: auto;
+  margin-top: 360px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+
+#login_container h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#login_container #formular {
+  padding-left: 25px;
+}
+
+#login_container #formular #cancel_btn{
+  color: black;
+  text-decoration: none;
+}
+/* konto_auszug------------------------------- */
+#auszug_container {
+  height: auto;
+  width: 600px;
+  margin: auto;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+
+#auszug_container #cancel_btn_link {
+  color: black;
+  text-decoration: none;
+}
+#auszug_container #cancel_btn {
+  margin-left: 270px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#auszug_container h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#auszug_container p {
+  text-align: center;
+}
+
+#auszug_container #table {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+#auszug_container #table th, td {
+  border: 2px solid black;
+}
+/* transaktionen------------------------------ */
+#transaktionen_container {
+  height: auto;
+  width: 600px;
+  margin: auto;
+  margin-top: 375px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+
+#transaktionen_container h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#transaktionen_container #einzahlen_formular {
+  padding-left: 25px;
+}
+
+#transaktionen_container #cancel_btn{
+  color: black;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+#transaktionen_container #cancel_btn_link {
+  color: black;
+  text-decoration: none;
+}
+
+/* ändere_pin--------------------------------- */
+
+#pin_container {
+  height: auto;
+  width: 600px;
+  margin: auto;
+  margin-top: 375px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+
+#pin_verification_container {
+  height: auto;
+  width: 600px;
+  margin: auto;
+  margin-top: 375px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+
+#pin_container h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#pin_verification_container h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#pin_verification_container p {
+  text-align: center;
+}
+
+#pin_verification_container #cancel_btn{
+  margin-left: 270px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#pin_verification_container #cancel_btn_link {
+  color: black;
+  text-decoration: none;
+}
+
+#pin_container #pin_formular {
+  padding-left: 25px;
+}
+
+#pin_container #cancel_btn{
+  color: black;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+#pin_container #cancel_btn_link {
+  color: black;
+  text-decoration: none;
+}

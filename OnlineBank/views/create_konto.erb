@@ -1,0 +1,19 @@
+<% if @message %>
+  <p><%= "Fehler: #{@message}" %></p>
+<% end %>
+
+<div id="create_delete_container">
+  <h1>Bitte füllen Sie die folgenden Felder aus:</h1>
+  <div id="formular">
+    <form action="/create", method="post">
+      Geben Sie hier eine Kontonummer ein:<br>
+      <input type="text" name="konto_nr" placeholder="Neue Kontonummer">
+      <br>
+      Geben Sie hier eine Pin ein:<br>
+      <input type="password" name="pin" placeholder="Neue Pin">
+      <br><br>
+      <button><a href="/" id="cancel_btn">Cancel</a></button>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>

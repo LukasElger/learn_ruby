@@ -1,0 +1,16 @@
+<% if @fehler_msg %>
+  <p><%= "Fehler: #{@fehler_msg}" %></p>
+<% end %>
+
+<div id="pin_container">
+  <h1>Bitte füllen Sie die folgenden Felder aus:</h1>
+  <div id="pin_formular">
+    <form action="/ändere_pin_verification1", method="post">
+      Geben Sie hier ihre alte Pin ein:<br>
+      <input type="password" name="pin_alt" placeholder="alte Pin">
+      <br><br>
+      <button id="cancel_btn"><a href="/logged_in_index" id="cancel_btn_link">Cancel</a></button>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>

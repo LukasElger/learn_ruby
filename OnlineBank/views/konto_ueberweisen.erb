@@ -1,0 +1,15 @@
+<div id="transaktionen_container">
+  <h1>Bitte füllen Sie die folgenden Felder aus:</h1>
+  <div id="einzahlen_formular">
+    <form action="/ueberweisen", method="post">
+      Geben Sie hier die Kontonummer des Empfänger's ein:<br>
+      <input type="text" name="ziel" placeholder="Empfänger">
+      <br>
+      Geben Sie hier einen Betrag ein:<br>
+      <input type="text" name="betrag" placeholder="Betrag">
+      <br><br>
+      <button id="cancel_btn"><a href="/logged_in_index" id="cancel_btn_link">Cancel</a></button>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
